@@ -4,20 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>madelovelee</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <nav>
-    <a href ="Home">Home</a>
-    <a href= "About">About</a>
-    <a href= "jewelry">Jewelery</a>
-    <a href= "videos">Videos/Tutorials</a>
+    <a href = "About">About</a>
+    <a href = "Drop/Dangle">Drop/Dangle Earrings</a>
+    <a href = "studs" > Studs</a>
+    <a href = "videos">Videos/Tutorials</a>
 </nav>
 
     <h1> madelovelee</h1>
     <h2>Polymer clay and Resin Jewelry</h2>
 
-     <!-- Slideshow for intro. page.
-          Animation needed, maybe song/jingle-->
+    <!--image slider start-->
+    <div class= "slider">
+        <div class = "slides">
+            <!--radio button start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio button end-->
+            <!--slide images start-->
+            <div class ="slide first">
+                <img src= "" alt="">
+            </div>
+            <div class ="slide">
+                <img src="./images/mountain earrings.jpg" alt="mountain earrings">
+            </div>
+            <div class ="slide">
+                <img src="./images/galaxy dangles.jpeg" alt="galaxy dangles">
+            </div>
+            <div class ="slide">
+                <img src="./images/white cresent moons.jpeg" alt="White cresent moon earrings">
+            </div>
+            <div class ="slide">
+                <img src="./images/tropical leaf earrings.jpeg" alt="Tropical leaf earrings">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+        </div> 
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for = "radio1" class = "manual-btn"></label>
+            <label for = "radio2" class = "manual-btn"></label>
+            <label for = "radio3" class = "manual-btn"></label>
+            <label for = "radio4" class = "manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+    </div>
+    <!--Image slider end-->
+
+    
 
 
 
