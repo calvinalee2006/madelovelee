@@ -5,67 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>madelovelee</title>
     <link href="./styles.css" type="text/css" rel="stylesheet" />
+
 </head>
 <body>
-<nav>
-    <a href = "About">About</a>
-    <a href = "Drop/Dangle">Drop/Dangle Earrings</a>
-    <a href = "studs" > Studs</a>
-    <a href = "videos">Videos/Tutorials</a>
-</nav>
+    <h1 class = "header">Made Lovelee</h1>   <!-- About page and Earrings page special offers-->
+    <h2>Handmade earrings by Courtney Lee</h2>
 
-    <h1> madelovelee</h1>
-    <h2>Polymer clay and Resin Jewelry</h2>
+     <!-- Slideshow container -->
+<div class="slideshow-container">
 
-    <!--image slider start-->
-    <div class= "slider">
-        <div class = "slides">
-            <!--radio button start-->
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-            <!--radio button end-->
-            <!--slide images start-->
-            <div class ="slide first">
-                <img src= "" alt="">
-            </div>
-            <div class ="slide">
-                <img src="./images/mountain earrings.jpg" alt="mountain earrings">
-            </div>
-            <div class ="slide">
-                <img src="./images/galaxy dangles.jpeg" alt="galaxy dangles">
-            </div>
-            <div class ="slide">
-                <img src="./images/white cresent moons.jpeg" alt="White cresent moon earrings">
-            </div>
-            <div class ="slide">
-                <img src="./images/tropical leaf earrings.jpeg" alt="Tropical leaf earrings">
-            </div>
-            <!--slide images end-->
-            <!--automatic navigation start-->
-            <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
-            <!--automatic navigation end-->
-        </div> 
-        <!--manual navigation start-->
-        <div class="navigation-manual">
-            <label for = "radio1" class = "manual-btn"></label>
-            <label for = "radio2" class = "manual-btn"></label>
-            <label for = "radio3" class = "manual-btn"></label>
-            <label for = "radio4" class = "manual-btn"></label>
-        </div>
-        <!--manual navigation end-->
-    </div>
-    <!--Image slider end-->
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="./images/blue dangles.jpeg" style="width:100%" >
+    <div class="text">Blue Dangles</div>
+  </div>
 
-    
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="./images/blue hoops.jpeg" style="width:100%">
+    <div class="text">Blue Hoops</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="./images/galaxy dangles.jpeg" style="width:100%">
+    <div class="text">Galaxy Dangles</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="./images/mountain earrings.jpg" style="width:100%">
+    <div class="text">Mountain earrings</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="./images/ocean dangles.jpeg" style="width:100%">
+    <div class="text">Ocean Dangles</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="./images/red flowers.jpeg" style="width:100%">
+    <div class="text">Red Flowers</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div> 
+
+    <!-- social media options  -->
 
 
 
+
+    <script src="script.js"></script>
 </body>
 </html>
